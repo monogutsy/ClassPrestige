@@ -8,9 +8,27 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
 </p>
 
-<p align="center">
-  A class-based RPG progression plugin for TShock servers. Players earn EXP by killing enemies, level up four independent combat classes, achieve prestige ranks, and rebirth for permanent bonuses all without stat power creep.
-</p>
+## ClassPrestige v1.0.0
+
+A class-based RPG progression plugin for TShock servers.
+
+### Features
+
+- Per-class EXP and leveling
+- Prestige ranks and rebirth system
+- Boss participation tracking
+- AFK and farming protection
+- Leaderboards
+- SQLite and MySQL support
+- Milestone rewards
+- Custom progression titles
+
+### Installation
+
+1. Download `ClassPrestige-v1.0.0.zip`
+2. Extract `ClassPrestige.dll`
+3. Place it inside your `ServerPlugins` folder
+4. Restart your TShock server
 
 ---
 
