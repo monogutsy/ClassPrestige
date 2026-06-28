@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />
 </p>
 
-## ClassPrestige v1.0.0
+## ClassPrestige v1.0.1
 
 A class-based RPG progression plugin for TShock servers.
 
@@ -25,7 +25,7 @@ A class-based RPG progression plugin for TShock servers.
 
 ### Quick Install
 
-1. Download `ClassPrestige-v1.0.0.zip`
+1. Download `ClassPrestige-v1.0.1.zip`
 2. Extract `ClassPrestige.dll`
 3. Place it inside your `ServerPlugins` folder
 4. Restart your TShock server
@@ -289,6 +289,11 @@ For reference, here's roughly how the default settings feel in practice:
 ---
 
 ## Changelog
+
+### v1.0.1
+
+- Updated plugin metadata and author information to MonoGutsy
+- Fixed `/help <page>` command bug for players with prestige rank titles
 
 ### v1.0.0
 

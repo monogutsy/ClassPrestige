@@ -7,6 +7,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>ClassPrestige</RootNamespace>
     <AssemblyName>ClassPrestige</AssemblyName>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Authors>MonoGutsy</Authors>
+    <Company>MonoGutsy</Company>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 

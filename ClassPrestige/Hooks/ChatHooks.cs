@@ -1,4 +1,4 @@
-﻿using ClassPrestige.Config;
+using ClassPrestige.Config;
 using ClassPrestige.Managers;
 using ClassPrestige.UI;
 
@@ -21,6 +21,9 @@ public sealed class ChatHooks(PlayerManager playerManager, PluginConfig config)
 
             var text = args.Text;
             if (string.IsNullOrEmpty(text))
+                return;
+
+            if (args.CommandId._name != "Say")
                 return;
 
             string cmdSpec = TShock.Config.Settings.CommandSpecifier ?? "/";

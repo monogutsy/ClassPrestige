@@ -1,4 +1,4 @@
-﻿using ClassPrestige.Commands;
+using ClassPrestige.Commands;
 using ClassPrestige.Config;
 using ClassPrestige.Database;
 using ClassPrestige.Hooks;
@@ -17,9 +17,9 @@ namespace ClassPrestige;
 public sealed class ClassPrestigePlugin(Main game) : TerrariaPlugin(game)
 {
     public override string Name => "ClassPrestige";
-    public override string Author => "ClassPrestige Team";
+    public override string Author => "MonoGutsy";
     public override string Description => "Per-class EXP, prestige ranks, rebirth, anti-abuse, leaderboards, and milestone rewards.";
-    public override Version Version => new(1, 0, 0);
+    public override Version Version => new(1, 0, 1);
 
     private readonly CancellationTokenSource _cancellationTokenSource = new();
 
